@@ -85,7 +85,7 @@ export const Order = () => {
 
             <button className="order__submit">Оформить заказ</button>
 
-            <div className="order__apeal">
+            <div className="order__appeal">
               <p className="order__text">Бесплатная доставка</p>
               <button className="order__close">Свернуть</button>
             </div>
