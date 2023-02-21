@@ -28,6 +28,6 @@
 
 @media (min-width: 1360px) {
   .container {
-    /* --container: 1290px; */
+    --container: 1290px;
   }
 }
