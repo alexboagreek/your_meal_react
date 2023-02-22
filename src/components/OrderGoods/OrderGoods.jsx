@@ -1,9 +1,9 @@
 import { Count } from '../Count/Count';
 import styles from './OrderGoods.module.css';
 
-export const OrderGoods = ({item}) => {
+export const OrderGoods = ({index, item}) => {
   return (
-    <li className={styles.item}>
+    <li key={index} className={styles.item}>
       <img className={styles.image} src="img/free_1.jpg" alt={item} />
 
       <div className={styles.goods}>
