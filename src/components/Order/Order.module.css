@@ -99,13 +99,20 @@
 .submit {
   width: 100%;
   padding: 9px;
-  background: #FF7020;
+  background-color: #FF7020;
   border-radius: 8px;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
   color: #FFFFFF;
   margin-bottom: 8px;
+}
+
+.submit:disabled {
+  background-color: #F2F2F3;
+  opacity: 0.5;
+  color: #080706;
+  cursor: no-drop;
 }
 
 .appeal {
